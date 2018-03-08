@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta charset="utf-8">
+		<title>Blind</title>
+		<!-- 이미지 & 영상 css -->
+		<link rel="stylesheet" href="../common/reset.css">
+		<link rel="stylesheet" href="vegas.css">
+		<style>
+		 html, body {
+      margin: 0;
+      width: 100%;
+      height: 100%;
+    }
+		.btn{width:289px; height:230px; position:absolute; top:0;left:0; bottom:0; right:0; margin:auto; cursor:pointer;}
+		.btn2{width:100px;height:20px;font-size:12px;background-color:#d41f26;color:#fff;text-align:center;position:absolute: top:0;left:0;bottom:0;right:0;margin:auto;cursor:pointer;line-height:20px;}
+		.new{width:1620px;height:900px;background-color:#fff;position:fixed;top:0;left:0;bottom:0;right:0;margin:auto;display:none;}
+		.new img{width:45px;height:46px;cursor:pointer;position:absolute;top:30px;right:30px;}
+		.b1{background:url(images/con1.png) no-repeat 0 0;width:1093px;height:325px;margin:0 auto;margin-top:50px;}
+		.b2{background:url(images/blind_stikr.jpg) no-repeat 0 0;width:530px;height:418px;float:left;margin-left:250px;margin-top:50px;}
+		.b3{background:url(images/name.jpg) no-repeat 0 0;width:530px;height:428px;float:right;margin-right:250px;margin-top:50px;}
+
+		</style>
+	</head>
+	<body data-vide-bg="video/try">
+		<div id="wrap">
+			<div class="btn"><img src="images/logo_blind.png" alt="logo"></div>
+			<a href="../activity.html"><div class="btn2">BACK</div></a>
+			<div class="new">
+				<img src="images/btn_x.png" alt="btn">
+				<div class="b1"></div>
+				<div class="b2"></div>
+				<div class="b3"></div>
+			</div>
+		</div>
+		<script src="../common/jquery-3.2.1.min.js"></script>
+		<!-- 이미지 영상 플러그인 -->
+		<script src="../common/jquery.vide.js"></script>
+		<script>
+			$('.btn').click(function(){
+				$('.new').css({'display':'block'})
+			});
+			$('.new > img').click(function(){
+				$('.new').css({'display':'none'})
+			});
+		</script>
+	</body>
+</html>
