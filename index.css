@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+@import url("https://fonts.googleapis.com/earlyaccess/notosanskr.css");
+
+body{font-family:'Noto Sans KR',"맑은 고딕","Malgun Gothic",sans-serif;font-size:20px;}
+a{color:#252425;}
+
+/* 사이드 네비게이션 */
+h1{top:10.2%;left:6.3%;position:fixed;}
+.nav{position:fixed;width:80px;height:100%;background-color:#231F20;z-index:1000}
+.nav ul{position:fixed;bottom:9%;}
+.nav ul li{transform:rotate(-90deg);margin-top:95px;}
+.nav ul li a{color:#fff;}
+.nav ul li a:hover{color:#d41f26;}
+
+
+h2{font-size:51px;position:absolute;top:33%;left:25.1%;font-family:Tium;}
+h2 span{display:block}
+
+.n95{position:absolute;top:0;left:33.5%;background:url("images/95.png") no-repeat 0 0;width:472px;height:674px;}
+.n18{position:absolute;top:61.5%;right:15.5%;background:url("images/18.png") no-repeat 0 0;width:421px;height:733px;}
+.tiger{position:absolute;top:33%;right:12%;background:url("images/tiger.png") no-repeat 0 0;width:1338px;height:624px;z-index:-99;}
+
+h3{font-weight:700;font-size:38px;padding:970px 0 0 460px;font-size:35px;}
+.txt{margin:230px 0 0 460px;font-size:20px;font-weight:500;}
+.txt p{padding-bottom:13px;}
+
+.red{position:relative;width:100%;background-color:#D41F26;height:91px;margin-top:172px;}
+.red img{position:absolute;left:50%;bottom:0;}

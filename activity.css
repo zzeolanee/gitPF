@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+@import url("https://fonts.googleapis.com/earlyaccess/notosanskr.css");
+
+body{font-family:'Noto Sans KR',"맑은 고딕","Malgun Gothic",sans-serif;font-size:20px;}
+a{color:#252425;}
+
+/* 사이드 네비게이션 */
+h1{top:10.2%;left:6.3%;position:fixed;}
+.nav{position:fixed;width:80px;height:100%;background-color:#231F20;z-index:1000}
+.nav ul{position:fixed;bottom:9%;}
+.nav ul li{transform:rotate(-90deg);margin-top:95px;}
+.nav ul li a{color:#fff;}
+.nav ul li a:hover{color:#d41f26;}
+
+.wrap{width:1100px;height:400px;position:absolute;top:35%;left:25%;}
+.wrap div{background-color:#eee;width:300px;height:300px;border-radius:400px;float:left;margin-right:50px;cursor:pointer;}
+.wrap div:hover{background-color:#d41f26;}
+.wrap a{width:300px;height:300px;border-radius:400px}
+
