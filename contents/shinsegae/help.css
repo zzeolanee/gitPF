@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/earlyaccess/notosanskr.css');
+
+body{font-family: 'Noto Sans KR', '맑은 고딕', sans-serif; font-size:16px;}
+a{color:#231F20}
+
+/* header */
+header{width:100%;height:80px;background-color:#fff;position:fixed;z-index:999;}
+header h1{float:left;margin-left:45px;padding-top:15px;}
+header ul{width:550px;margin:0 auto;padding-top:40px;}
+header ul li{float:left;}
+header ul li a{margin-right:68px;}
+header ul li:last-child a{margin-right:0;}
+.search{float:right;margin-right:40px;}
+
+/* con1 */
+.con1{position:relative;}
+.con1 p{position:absolute;top:45%;left:38.5%;text-align:center;font-size:50px;color:#fff;}
+.con1 span{display:block;padding-top:8px;}
+.border{width:140px;border:4px solid #D18B29;position:absolute;top:65%;left:46%;}
+
+/* con2 */
+.con2{width:960px;margin:0 auto;}
+.con2 h2{font-size:40px;text-align:center;padding-top:82px;}
+.wrapper{padding-top:158px;}
+.box1, .box2{width:385px;height:310px;border:4px solid #DBDBDA;cursor:pointer;}
+.box1:first-child, .box2:first-child{float:left;margin-left:75px;}
+.box1:last-child, .box2:last-child{float:right;margin-right:75px;}
+.box1 h3, .box2 h3{text-align:center;padding-top:50px;font-size:20px;font-weight:700;color:#d18b29;}
+.box1 p, .box2 p{text-align:center;color:#474747;padding:35px 0 45px 0;}
+.box1 span, .box2 span{display:block}
+.box1 img, .box2 img{margin-left:160px;}
+.box1 .margin, .box2 .margin{margin-left:155px;}
+.box1:hover, .box2:hover{background-color:#d18b29;border:4px solid #d18b29;}
+.box1:hover p, .box1:hover h3, .box2:hover p, .box2:hover h3{color:#fff;}
+
+.wrapper2{width:1920px;height:805px;position:relative;}
+.wrapper2 .qa1, .wrapper2 .qa2{position:absolute;top:196px;left:210px;}
+.qa1 .btn, .qa2 .btn{position:absolute;top:20px;right:20px;}
+
+/* 새창 */
+.qa1{display: none}
+.btn{cursor:pointer;}
+.qa1 .form{width:525px;position:absolute;top:30px;left:442px;z-index:99;}
+.qa1 .form > div{float:left;}
+.qa1 .form label{display:block;padding:25px 0;}
+.qa1 .form .question label{padding-top:45px;}
+.qa1 .form input[type=text]{width:240px;height:40px;background-color:#E5E5E4;border:none;margin-right:45px;}
+.qa1 .form .num input[type=text], .qa1 .form .add input[type=text]{margin-right:0;}
+.qa1 .form .question input[type=text]{width:525px;height:190px;}
+.qa1 .btn2 {position:absolute;top:470px;right:300px;}
+
+.qa2{display:none}
+.qa2 .form2{width:525px;position:absolute;top:30px;left:442px;z-index:99;}
+.qa2 .form2 >div{float:left;}
+.qa2 .form2 label{display:block;padding:25px 0;}
+.qa2 .form2 .question2 label{padding-top:45px;}
+.qa2 .form2 input[type=text]{width:240px;height:40px;background-color:#E5E5E4;border:none;margin-right:45px;}
+.qa2 .form2 .pw input[type=text]{margin-right:0;}
+.qa2 .form2 .question2 input[type=text]{width:525px;height:306px;}
+.qa2 .btn2 {position:absolute;top:475px;right:300px;}
+
+
+
+/* footer */
+footer{width:100%;border-top:1px solid #aaa;clear:both;}
+footer #wrap{margin:0 auto;width:960px;text-align:center;}
+footer ul{width:422px;margin: 0 auto;padding-top:60px;display:inline-block;text-align:center;}
+footer ul li{float:left;}
+footer ul li a{margin-right:5px;}
+footer ul li:first-child a{color:#d18b29;}
+footer ul li:last-child a{margin-right:0;}
+.p{padding-top:54px;font-size:12px;}
+.p p{padding-bottom:18px;}
+.p .gray{padding-top:40px;color:#7F7F7F;padding-bottom:25px;}
+.sns{padding-bottom:20px;}
+.sns p{color:#7F7F7F;padding-bottom:10px;}

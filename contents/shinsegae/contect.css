@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/earlyaccess/notosanskr.css');
+
+body{font-family: 'Noto Sans KR', '맑은 고딕', sans-serif; font-size:16px;}
+a{color:#231F20}
+
+/* header */
+header{width:100%;height:80px;background-color:#fff;position:fixed;z-index:999;}
+header h1{float:left;margin-left:45px;padding-top:15px;}
+header ul{width:550px;margin:0 auto;padding-top:40px;}
+header ul li{float:left;}
+header ul li a{margin-right:68px;}
+header ul li:last-child a{margin-right:0;}
+.search{float:right;margin-right:40px;}
+
+/* con1 */
+.con1{position:relative;}
+.con1 p{position:absolute;top:45%;left:38.5%;text-align:center;font-size:50px;color:#fff;}
+.con1 span{display:block;padding-top:8px;}
+.border{width:140px;border:4px solid #D18B29;position:absolute;top:65%;left:46%;}
+
+/* con2 */
+.con2{width:960px;height:915px;margin:0 auto;}
+.con2 h2{font-size:40px;text-align:center;padding-top:82px;}
+.wrap1{position:relative;}
+.wrap1 .form{width:525px;position:absolute;top:50px;left:0;z-index:99;}
+.wrap1 .form div{float:left;}
+.wrap1 .form label{display:block;padding:25px 0;}
+.wrap1 .form .question label{padding-top:45px;}
+.wrap1 .form input[type=text]{width:240px;height:40px;background-color:#E5E5E4;border:none;margin-right:45px;}
+.wrap1 .form .num input[type=text], .wrap1 .form .add input[type=text]{margin-right:0;}
+.wrap1 .form .question input[type=text]{width:525px;height:190px;}
+.wrap1 .btn2 {position:absolute;top:600px;left:0;}
+
+.wrap2{float:right;padding-top:115px;}
+.wrap2 p{padding-top:30px;}
+.wrap2 p:last-child{padding-top:10px;}
+.wrap2 span{font-weight:700;padding-right:10px;}
+
+
+
+/* footer */
+footer{width:100%;border-top:1px solid #aaa;clear:both;}
+footer #wrap{margin:0 auto;width:960px;text-align:center;}
+footer ul{width:422px;margin: 0 auto;padding-top:60px;display:inline-block;text-align:center;}
+footer ul li{float:left;}
+footer ul li a{margin-right:5px;}
+footer ul li:first-child a{color:#d18b29;}
+footer ul li:last-child a{margin-right:0;}
+.p{padding-top:54px;font-size:12px;}
+.p p{padding-bottom:18px;}
+.p .gray{padding-top:40px;color:#7F7F7F;padding-bottom:25px;}
+.sns{padding-bottom:20px;}
+.sns p{color:#7F7F7F;padding-bottom:10px;}

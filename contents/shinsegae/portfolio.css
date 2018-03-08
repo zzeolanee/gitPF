@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/earlyaccess/notosanskr.css');
+
+body{font-family: 'Noto Sans KR', '맑은 고딕', sans-serif; font-size:16px;}
+a{color:#231F20}
+
+/* header */
+header{width:100%;height:80px;background-color:#fff;position:fixed;z-index:99;}
+header h1{float:left;margin-left:45px;padding-top:15px;}
+header ul{width:550px;margin:0 auto;padding-top:40px;}
+header ul li{float:left;}
+header ul li a{margin-right:68px;}
+header ul li:last-child a{margin-right:0;}
+.search{float:right;margin-right:40px;}
+
+/* con1 */
+.con1{position:relative;padding-top:80px;}
+.con1 img:first-child{float:right;}
+.con1 img:last-child{float:left;}
+.con1 p{font-size:50px;position:absolute;top:40%;left:10%;}
+.con1 span{display:block;padding-top:5px;}
+.border{width:140px;border:4px solid #D18B29;position:absolute;top:60%;left:10%;}
+
+/* con2 */
+.con2{width:960px;margin:0 auto;}
+.center h2{font-size:40px;text-align:center;padding-top:82px;}
+.center ul{width:430px;height:20px;padding:38px 269px 38px 269px;}
+.center ul li{float:left;}
+.center ul li a{padding-right:40px;}
+.center ul li:hover a{font-weight:700;}
+.center ul li:last-child a{padding-right:0;}
+
+/* con3 */
+.con3{width:100%;height:1510px;}
+.port{padding-bottom:100px;}
+.port li{float:left;border:1px solid #eee;width:632px;height:395px;}
+.port li:hover{background:url(images/more.png) no-repeat 50%;cursor:pointer;}
+
+/* footer */
+footer{width:100%;border-top:1px solid #aaa;clear:both}
+footer #wrap{margin:0 auto;width:960px;text-align:center;}
+footer ul{width:422px;margin: 0 auto;padding-top:60px;display:inline-block;text-align:center;}
+footer ul li{float:left;}
+footer ul li a{margin-right:5px;}
+footer ul li:first-child a{color:#d18b29;}
+footer ul li:last-child a{margin-right:0;}
+.p{padding-top:54px;font-size:12px;}
+.p p{padding-bottom:18px;}
+.p .gray{padding-top:40px;color:#7F7F7F;padding-bottom:25px;}
+.sns{padding-bottom:20px;}
+.sns p{color:#7F7F7F;padding-bottom:10px;}

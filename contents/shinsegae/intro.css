@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/earlyaccess/notosanskr.css');
+
+body{font-family: 'Noto Sans KR', '맑은 고딕', sans-serif; font-size:16px;}
+a{color:#231F20}
+
+/* header */
+header{width:100%;height:80px;background-color:#fff;position:fixed;}
+header h1{float:left;margin-left:45px;padding-top:15px;}
+header ul{width:550px;margin:0 auto;padding-top:40px;}
+header ul li{float:left;}
+header ul li a{margin-right:68px;}
+header ul li:last-child a{margin-right:0;}
+.search{float:right;margin-right:40px;}
+
+/* con1 */
+.con1{width:100%;height:673px;padding-top:80px;position:relative;z-index:-999;}
+.con1 p{position:absolute;top:45%;left:30%;text-align:center;font-size:50px;color:#fff;}
+.con1 span{display:block;padding-top:8px;}
+.border{width:140px;border:4px solid #D18B29;position:absolute;top:65%;left:46%;}
+
+/* con2 */
+.con2{width:960px;margin:0 auto;}
+.yellow{font-weight:700;color:#d18b29;font-size:25px;}
+.yellow:first-child{padding-top:115px;}
+.yellow:nth-child(2){padding-top:50px;}
+.yellow span{display:block;padding-bottom:108px;padding-top:5px;}
+.txt{}
+.txt img{}
+.txt h2{text-align:center;font-size:40px;font-weight:700;}
+.border2{width:85px;border:1px solid #2f2f2f;margin:30px auto;}
+.txt p{font-size:16px;margin-left:62px;padding-bottom:30px;}
+.txt .padding{padding-top:50px;}
+.txt span{color:#d18b29;}
+.txt .move{padding:30px 0 50px 0;float:right;margin-right:62px;}
+.move span{font-size:20px;font-weight:700;color:#000;padding-top:90px;}
+
+.dw{width:334px;margin:0 auto;display:block;padding-top:85px;padding-bottom:96px;}
+
+/* footer */
+footer{width:100%;border-top:1px solid #aaa;}
+footer #wrap{margin:0 auto;width:960px;text-align:center;}
+footer ul{width:422px;margin: 0 auto;padding-top:60px;display:inline-block;text-align:center;}
+footer ul li{float:left;}
+footer ul li a{margin-right:5px;}
+footer ul li:first-child a{color:#d18b29;}
+footer ul li:last-child a{margin-right:0;}
+.p{padding-top:54px;font-size:12px;}
+.p p{padding-bottom:18px;}
+.p .gray{padding-top:40px;color:#7F7F7F;padding-bottom:25px;}
+.sns{padding-bottom:20px;}
+.sns p{color:#7F7F7F;padding-bottom:10px;}
+.sns img{}
