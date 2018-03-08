@@ -14,7 +14,16 @@ h1{top:10.2%;left:6.3%;position:fixed;}
 .nav ul li a:hover{color:#d41f26;}
 
 .wrap{width:1100px;height:400px;position:absolute;top:35%;left:25%;}
-.wrap div{background-color:#eee;width:300px;height:300px;border-radius:400px;float:left;margin-right:50px;cursor:pointer;}
-.wrap div:hover{background-color:#d41f26;}
+.wrap div{width:300px;height:300px;border-radius:400px;float:left;margin-right:50px;cursor:pointer;}
+
+.wrap .b1{background:url(images/b1-1.png) no-repeat 0 0}
+.wrap .b1:hover{background:url(images/b1.png) no-repeat 0 0;}
+
+.wrap .b2{background:url(images/b2-1.png) no-repeat 0 0}
+.wrap .b2:hover{background:url(images/b2.png) no-repeat 0 0;}
+
+.wrap .b3{background:url(images/b3-1.png) no-repeat 0 0}
+.wrap .b3:hover{background:url(images/b3.png) no-repeat 0 0;}
+
 .wrap a{width:300px;height:300px;border-radius:400px}
 
