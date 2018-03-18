@@ -3,7 +3,8 @@
 @import url("https://fonts.googleapis.com/earlyaccess/notosanskr.css");
 
 body{font-family:'Noto Sans KR',"맑은 고딕","Malgun Gothic",sans-serif;font-size:14px;}
-a{color:#252425;display:block;width:1920px;height:1283px;}
+
 
 
 img{vertical-align:top}
+a img{position:absolute;top:1127px;right:423px;}
