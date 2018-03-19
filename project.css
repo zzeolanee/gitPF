@@ -23,8 +23,8 @@ h1{top:10.2%;left:6.3%;position:fixed;}
 
 .wrap ul li:nth-child(1) a{background:url(images/shin1.jpg) no-repeat 0 0;}
 .wrap ul li:nth-child(1):hover a{background:url(images/shin2.jpg) no-repeat 0 0;}
-.wrap ul li:nth-child(2) a{background:url(images/action1.jpg) no-repeat 0 0;}
-.wrap ul li:nth-child(2):hover a{background:url(images/action2.jpg) no-repeat 0 0;}
+.wrap ul li:nth-child(2) a{background:url(images/auction1.jpg) no-repeat 0 0;}
+.wrap ul li:nth-child(2):hover a{background:url(images/auction2.jpg) no-repeat 0 0;}
 .wrap ul li:nth-child(3) a{background:url(images/shell1.jpg) no-repeat 0 0;}
 .wrap ul li:nth-child(3):hover a{background:url(images/shell2.jpg) no-repeat 0 0;}
 .wrap ul li:nth-child(4) a{background:url(images/insadong1.jpg) no-repeat 0 0;}
